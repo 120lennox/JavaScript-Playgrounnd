@@ -23,6 +23,20 @@ function checkguess(){
         setGameOver();
     }
 
+    else if(guessCount === 10){
+        lastResult.textContent = "!!Game Over!!";
+        lastResult.style.backgroundColor = 'red';
+        lowOrHi.textContent = "";
+        setGameOver();
+    }
+
+    else if (guessCount < 10){
+        lastResult.textContent = "Wrong!";
+        lastResult.style.backgroundColor = 'red';
+
+        if (userGuess <)
+    }
+
     
 }
 
