@@ -9,3 +9,8 @@ console.log("Lennox" < "lennox"); //returns true
 console.log("aaron" < "baron"); //returns true
 console.log("mountain" < "mountains"); //returns true. mountains has more characters
 
+//number comparison special case
+console.log(NaN == NaN); //returns false
+
+
+
