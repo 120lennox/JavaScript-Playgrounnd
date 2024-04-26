@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculate numbers</title>
     <script>
-        let heading = document.querySelector("h2");
-        
-        if(heading){
-            function change(){
-                heading.innerHTML = "Lennox"; 
+        function change(){
+            let heading = document.querySelector("h2");
+            if (heading){
+                heading.innerHTML = "Lennox";
+            }
+            else{
+                alert("something went wrong")
             }
         }
-        
     </script>
 </head>
 <body>

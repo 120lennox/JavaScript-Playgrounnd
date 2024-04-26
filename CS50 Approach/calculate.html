@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let num1 = document.getElementById("num1").value;
+        let num2 = document.getElementById("num1").value;
+        let paragraph = document.querySelector("p");
+        let sum = parseInt(num1) + parseInt(num2);
+        function result(){
+            paragraph.innerHTML = `Sum = ${sum}`;
+        }
+        document.addEventListener("DOMContentLoaded", result);
+    </script>
+</head>
+<body>
+    <h1>JavaScript Baby steps! debug</h1>
+    <form action="">
+        <input type="text" id="num1" placeholder="enter fist number"> <br>
+        <input type="text" id="num2" placeholder="enter second number">
+        <button type="submit" onclick="result()">Calculate</button>
+    </form>
+</body>
+</html>
