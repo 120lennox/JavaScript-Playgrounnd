@@ -12,5 +12,12 @@ console.log("mountain" < "mountains"); //returns true. mountains has more charac
 //number comparison special case
 console.log(NaN == NaN); //returns false
 
+for(let i = 1; i < 10; i++){
+    for (let k = 0; k < i; k++){
+        console.log("*");
+    }
+    console.log("\n");
+}
+
 
 
