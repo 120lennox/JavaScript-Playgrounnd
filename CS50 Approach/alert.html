@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function hello(){
+            //to get the actual value of ID, you need strip off the object. to do that proceed as follows. 
+            let nameInput = document.getElementById("name");
+            let name = nameInput.value;
+            alert(`Hello, ${name}`);
+        }
+    </script>
+</head>
+<body>
+    <h1>JavaScript Baby steps!</h1>
+    <form action="">
+        <input type="text" id="name" placeholder="enter name">
+        <button type="submit" onclick="hello()">Submit</button>
+    </form>
+</body>
+</html>
