@@ -22,3 +22,4 @@ for (let i = 0; i < tasks.smaller_tasks.length; i++){
 console.log(tasks.smaller_tasks[0])
 tasks.smaller_tasks.push("pushed..")
 
+
