@@ -8,3 +8,17 @@ const names = ["Lennox", "dell", "Jacques", 2, 4]
 // console.log(names["Lennox"])
 // console.log(names.length)
 // console.log(names[0])
+
+let tasks = {
+    smaller_tasks: ["wash", "study", "flex"],
+    lager_tasks: false,
+    numbers: [1, 2, 4, 5]
+}
+
+for (let i = 0; i < tasks.smaller_tasks.length; i++){
+    console.log(tasks.smaller_tasks[i])
+}
+
+console.log(tasks.smaller_tasks[0])
+tasks.smaller_tasks.push("pushed..")
+
