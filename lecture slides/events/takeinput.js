@@ -3,9 +3,9 @@ const num2 = document.querySelector("#num2")
 let heading = document.querySelector("h2")
 const sub = document.querySelector(".sumbit")
 
-function calculate(){
-    return num1.value + num2.value 
+const calculate = () => {
+    const result = parseInt(num1.value )+ parseInt(num2.value)
+    heading.innerHTML = result
 }
 
-
-
+sub.addEventListener("click", calculate)
