@@ -6,4 +6,8 @@
  */
 
 //Callbacks
-//
+//These are functions thats are passed as arguments to other functions. these functions get executed once the outer function gets executed. refer example below. 
+setTimeout(function(){
+    alert("Executed after first function executes")
+}, 6000)
+//function inside setTimeout executes after setTimeout excutes
