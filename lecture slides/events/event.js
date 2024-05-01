@@ -2,7 +2,7 @@ const change_btn = document.querySelector(".button1");
 const reset_btn = document.querySelector(".button2");
 
 function random_number(number){
-    return Math.floor(Math.random() * (number + 1));
+    return Math.floor(Math.random() * (number + 1)); //missed () on Math.random
 }
 
 function set_color(){
