@@ -11,3 +11,5 @@ setTimeout(function(){
     alert("Executed after first function executes")
 }, 6000)
 //function inside setTimeout executes after setTimeout excutes
+
+//Promises
