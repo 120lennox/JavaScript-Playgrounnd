@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
     async function calculate(){
         try{
-            const result = await parseFloat(num1) + parseFloat(num2)
+            const result = await parseFloat(num1.value) + parseFloat(num2.value)
             if (isNaN(result)){
                 heading.innerHTML = "invalid input"
             }
@@ -49,6 +49,10 @@ document.addEventListener("DOMContentLoaded", ()=>{
             heading.innerHTML = error
         }
     }
+
+    sub.addEventListener("click", ()=>{
+        calculate()
+    })
 })
 
 
