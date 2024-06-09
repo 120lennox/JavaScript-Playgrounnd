@@ -8,6 +8,7 @@ function alarm(delay){
     })
 }
 
+//handling a promises
 alarm(5000).then(
     (message)=>{
         parag.textContent = `${message}`
