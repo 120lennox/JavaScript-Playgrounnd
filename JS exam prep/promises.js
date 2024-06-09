@@ -5,6 +5,7 @@ function alarm(delay){
         setTimeout(()=>{
             resolve("promise retrived")
         }, delay)
+        
     })
 }
 
@@ -17,3 +18,4 @@ alarm(5000).then(
 ).catch((error)=>{
     parag.textContent = `${error}`
 })
+
